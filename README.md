@@ -1,2 +1,3 @@
 # Movie-Rent
-Movie Rentals
+
+This is a sample project I am currently working on to build my portfolio.
