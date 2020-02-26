@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Vidly.Models;
+using Vidly.ViewModels;
 
 namespace Vidly.Controllers
 {
@@ -34,6 +35,17 @@ namespace Vidly.Controllers
             var movie = _context.Movies.Include(m => m.MovieType).SingleOrDefault(m => m.Id == id);
 
             return View(movie);
+        }
+
+        public ActionResult New()
+        {
+            var movieTypes = _context.MovieTypes.ToList();
+            var viewModel = new MovieFormViewModel()
+            {
+                MovieTypes = movieTypes
+            };
+
+            return View("MovieForm",viewModel);
         }
     }
 }
