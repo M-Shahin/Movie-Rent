@@ -502,3 +502,5 @@ C:\Users\smsha\Desktop\Movie-Rent\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompile
 C:\Users\smsha\Desktop\Movie-Rent\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\Users\smsha\Desktop\Movie-Rent\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\smsha\Desktop\Movie-Rent\Vidly\Vidly\obj\Debug\Vidly.pdb
+C:\Users\smsha\Desktop\Movie-Rent\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateDateTypeInMoviesModel.resources
+C:\Users\smsha\Desktop\Movie-Rent\Vidly\Vidly\obj\Debug\Vidly.Migrations.UpdateDateTypeDateAddedInMoviesModel.resources

@@ -245,6 +245,14 @@
     <Compile Include="Migrations\202002060513102_PopulateMovieDetail.Designer.cs">
       <DependentUpon>202002060513102_PopulateMovieDetail.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002270151372_UpdateDateTypeInMoviesModel.cs" />
+    <Compile Include="Migrations\202002270151372_UpdateDateTypeInMoviesModel.Designer.cs">
+      <DependentUpon>202002270151372_UpdateDateTypeInMoviesModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002270214381_UpdateDateTypeDateAddedInMoviesModel.cs" />
+    <Compile Include="Migrations\202002270214381_UpdateDateTypeDateAddedInMoviesModel.Designer.cs">
+      <DependentUpon>202002270214381_UpdateDateTypeDateAddedInMoviesModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -388,6 +396,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002060513102_PopulateMovieDetail.resx">
       <DependentUpon>202002060513102_PopulateMovieDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002270151372_UpdateDateTypeInMoviesModel.resx">
+      <DependentUpon>202002270151372_UpdateDateTypeInMoviesModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002270214381_UpdateDateTypeDateAddedInMoviesModel.resx">
+      <DependentUpon>202002270214381_UpdateDateTypeDateAddedInMoviesModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
