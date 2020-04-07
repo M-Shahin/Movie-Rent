@@ -11,12 +11,12 @@
     <li>Genre: @Model.MovieType.Genre</li>
     @if (Model.ReleaseDate.HasValue)
     {
-        <li>Date of Birth: @Model.ReleaseDate.Value.ToShortDateString()</li>
+        <li>Release Date: @Model.ReleaseDate.Value.ToShortDateString()</li>
     }
     @*<li>Release Date: @Model.ReleaseDate</li>*@
     @if (Model.DateAdded.HasValue)
     {
-        <li>Date of Birth: @Model.DateAdded.Value.ToShortDateString()</li>
+        <li>Date Added: @Model.DateAdded.Value.ToShortDateString()</li>
     }
     @*<li>Date Added: @Model.DateAdded.</li>*@
     <li>Number in Stock: @Model.NumberInStock</li>

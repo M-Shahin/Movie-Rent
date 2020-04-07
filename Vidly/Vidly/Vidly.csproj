@@ -253,6 +253,22 @@
     <Compile Include="Migrations\202002270214381_UpdateDateTypeDateAddedInMoviesModel.Designer.cs">
       <DependentUpon>202002270214381_UpdateDateTypeDateAddedInMoviesModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004071343562_applyCorrectionInModels.cs" />
+    <Compile Include="Migrations\202004071343562_applyCorrectionInModels.Designer.cs">
+      <DependentUpon>202004071343562_applyCorrectionInModels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004071346243_AddDataAnnotationMovieName.cs" />
+    <Compile Include="Migrations\202004071346243_AddDataAnnotationMovieName.Designer.cs">
+      <DependentUpon>202004071346243_AddDataAnnotationMovieName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004071401050_AddDataAnnotationInGenreNameMovies.cs" />
+    <Compile Include="Migrations\202004071401050_AddDataAnnotationInGenreNameMovies.Designer.cs">
+      <DependentUpon>202004071401050_AddDataAnnotationInGenreNameMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004071402249_AddRangeOfNumberInStockInMovies.cs" />
+    <Compile Include="Migrations\202004071402249_AddRangeOfNumberInStockInMovies.Designer.cs">
+      <DependentUpon>202004071402249_AddRangeOfNumberInStockInMovies.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -404,6 +420,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002270214381_UpdateDateTypeDateAddedInMoviesModel.resx">
       <DependentUpon>202002270214381_UpdateDateTypeDateAddedInMoviesModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004071343562_applyCorrectionInModels.resx">
+      <DependentUpon>202004071343562_applyCorrectionInModels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004071346243_AddDataAnnotationMovieName.resx">
+      <DependentUpon>202004071346243_AddDataAnnotationMovieName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004071401050_AddDataAnnotationInGenreNameMovies.resx">
+      <DependentUpon>202004071401050_AddDataAnnotationInGenreNameMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004071402249_AddRangeOfNumberInStockInMovies.resx">
+      <DependentUpon>202004071402249_AddRangeOfNumberInStockInMovies.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
